@@ -23,7 +23,7 @@
 ### 2.1 시스템 아키텍처
 
 본 시스템은 **FastAPI 기반 백엔드 서버**와 **HTML/CSS/JavaScript 기반 프론트엔드**로 구성된 웹 애플리케이션 형태로 구현되었다.
-
+<img width="1933" height="902" alt="ui" src="https://github.com/user-attachments/assets/edd76833-f25d-4154-b43d-d30d6bfcaa8c" />
 * **Frontend**
   사용자는 웹 인터페이스를 통해 이미지를 업로드하며, 업로드된 이미지는 비동기 방식으로 서버에 전달된다. 분석 결과는 최종 판별 문구, 모델별 확률 비교 차트, 그리고 조작 의심 영역 시각화 형태로 제공된다.
 
@@ -120,12 +120,14 @@ Engine B는 딥러닝 기반의 보조 판별 엔진으로, Hugging Face에서 �
 
   * AI Probability: **15%**
   * 판별 결과: 실제 사진으로 판단 (AI 생성 이미지 탐지 실패)
+<img width="2857" height="1400" alt="일루미나티" src="https://github.com/user-attachments/assets/f38d94c9-5c80-4c4e-b689-1dc8961f98f9" />
 
 * **DeepDetect Pro (본 프로젝트)**
 
   * Custom Model (ELA+LBP): AI 생성 이미지로 판별
   * ViT 모델: AI 생성 이미지 확률 우세
   * 종합 판별 결과: **AI 조작 의심**
+<img width="1912" height="913" alt="분석" src="https://github.com/user-attachments/assets/8c5ee55d-ef3c-495f-8d91-a38d8b42f740" />
 
 즉, 동일한 AI 생성 이미지에 대해 상용 탐지 서비스는 AI 생성 가능성을 낮게 평가한 반면, 본 프로젝트의 시스템은 포렌식 기반 특징 분석과 딥러닝 모델의 교차 검증을 통해 AI 생성 가능성을 탐지할 수 있었다.
 
