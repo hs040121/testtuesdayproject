@@ -75,7 +75,7 @@ Engine B는 딥러닝 기반의 보조 판별 엔진으로, Hugging Face에서 �
 | Frontend         | HTML5, CSS3, Bootstrap 5, jQuery, Chart.js |
 | ML Libraries     | Scikit-learn, PyTorch, Transformers        |
 | Image Processing | OpenCV, Pillow, Scikit-image               |
-| Dataset          | Real / Fake 이미지 약 20,000장                  |
+| Dataset          | Real / Fake 이미지 약 39,000장                  |
 | IDE              | PyCharm, VS Code                           |
 
 ---
