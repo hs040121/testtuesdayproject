@@ -34,7 +34,7 @@
 
 #### 2.2.1 Engine A: 특징 공학 기반 포렌식 모델 (Custom Model)
 
-Figure 1에 제시된 바와 같이, 본 프로젝트에서는 약 39,000장의 Real/Fake 이미지 데이터셋을 활용하여 특징 공학 기반 포렌식 모델을 학습하였다.
+본 프로젝트에서는 약 39,000장의 Real/Fake 이미지 데이터셋을 활용하여 특징 공학 기반 포렌식 모델을 학습하였다.
 <img width="1893" height="1257" alt="데이터 학습" src="https://github.com/user-attachments/assets/6f7b0c30-5312-4e25-8a31-4fa8f19ac1d4" />
 Engine A는 이미지 포렌식 이론을 직접 구현한 모델로, **RandomForest 분류기**를 기반으로 한다.
 
