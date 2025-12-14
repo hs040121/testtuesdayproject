@@ -116,6 +116,8 @@ Engine B는 딥러닝 기반의 보조 판별 엔진으로, Hugging Face에서 �
 
 ### 5.2 비교 실험 결과
 
+Youtube 시연 영상 <https://youtu.be/rBLjVTBUJzg>
+
 * **Illuminarty (상용 AI 탐지기)**
 
   * AI Probability: **15%**
